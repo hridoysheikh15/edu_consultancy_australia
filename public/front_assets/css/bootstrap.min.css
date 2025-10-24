@@ -11,7 +11,7 @@
     --bs-indigo: #6610f2;
     --bs-purple: #6f42c1;
     --bs-pink: #d63384;
-    --bs-red: #dc3545;
+    --bs-red: #eb3b08;
     --bs-orange: #fd7e14;
     --bs-yellow: #ffc107;
     --bs-green: #198754;
@@ -35,7 +35,7 @@
     --bs-success: #198754;
     --bs-info: #0dcaf0;
     --bs-warning: #ffc107;
-    --bs-danger: #dc3545;
+    --bs-danger: #eb3b08;
     --bs-light: #f8f9fa;
     --bs-dark: #212529;
     --bs-primary-rgb: 13, 110, 253;
@@ -122,8 +122,8 @@
     --bs-focus-ring-color: rgba(13, 110, 253, 0.25);
     --bs-form-valid-color: #198754;
     --bs-form-valid-border-color: #198754;
-    --bs-form-invalid-color: #dc3545;
-    --bs-form-invalid-border-color: #dc3545
+    --bs-form-invalid-color: #eb3b08;
+    --bs-form-invalid-border-color: #eb3b08
 }
 
 [data-bs-theme=dark] {
@@ -3600,8 +3600,8 @@ fieldset:disabled .btn {
 
 .btn-danger {
     --bs-btn-color: #fff;
-    --bs-btn-bg: #dc3545;
-    --bs-btn-border-color: #dc3545;
+    --bs-btn-bg: #eb3b08;
+    --bs-btn-border-color: #eb3b08;
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: #bb2d3b;
     --bs-btn-hover-border-color: #b02a37;
@@ -3611,8 +3611,8 @@ fieldset:disabled .btn {
     --bs-btn-active-border-color: #a52834;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: #dc3545;
-    --bs-btn-disabled-border-color: #dc3545
+    --bs-btn-disabled-bg: #eb3b08;
+    --bs-btn-disabled-border-color: #eb3b08
 }
 
 .btn-light {
@@ -3735,19 +3735,19 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-danger {
-    --bs-btn-color: #dc3545;
-    --bs-btn-border-color: #dc3545;
+    --bs-btn-color: #eb3b08;
+    --bs-btn-border-color: #eb3b08;
     --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #dc3545;
-    --bs-btn-hover-border-color: #dc3545;
+    --bs-btn-hover-bg: #eb3b08;
+    --bs-btn-hover-border-color: #eb3b08;
     --bs-btn-focus-shadow-rgb: 220, 53, 69;
     --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #dc3545;
-    --bs-btn-active-border-color: #dc3545;
+    --bs-btn-active-bg: #eb3b08;
+    --bs-btn-active-border-color: #eb3b08;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #dc3545;
+    --bs-btn-disabled-color: #eb3b08;
     --bs-btn-disabled-bg: transparent;
-    --bs-btn-disabled-border-color: #dc3545;
+    --bs-btn-disabled-border-color: #eb3b08;
     --bs-gradient: none
 }
 
@@ -9782,7 +9782,7 @@ fieldset:disabled .btn {
 
 .bg-danger {
     --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)) !important
+    background-color: #eb3b08 !important
 }
 
 .bg-light {
